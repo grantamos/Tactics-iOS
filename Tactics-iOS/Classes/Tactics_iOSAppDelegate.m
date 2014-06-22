@@ -8,7 +8,7 @@
 
 #import "Tactics_iOSAppDelegate.h"
 #import "Tactics_iOSLayer.h"
-#import "Tactics_iOSScene.h"
+#import "LevelScene.h"
 #import "CC3CC2Extensions.h"
 
 #define kAnimationFrameRate		60		// Animation frame rate
@@ -102,7 +102,7 @@
 	
 	// Create the customized 3D scene and attach it to the layer.
 	// Could also just create this inside the customer layer.
-	cc3Layer.cc3Scene = [Tactics_iOSScene scene];
+	cc3Layer.cc3Scene = [LevelScene new];
 	
 	// Assign to a generic variable so we can uncomment options below to play with the capabilities
 	CC3ControllableLayer* controlledLayer = cc3Layer;

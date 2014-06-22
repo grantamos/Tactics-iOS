@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930E108B19576571007EFB69 /* Hex256.png in Resources */ = {isa = PBXBuildFile; fileRef = 930E108A19576571007EFB69 /* Hex256.png */; };
+		9336B4231957455A00EFE8AA /* LevelScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9336B4221957455A00EFE8AA /* LevelScene.m */; };
+		9336B42619574FD300EFE8AA /* Terrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 9336B42519574FD300EFE8AA /* Terrain.m */; };
 		93A949FF195513E9006D0F17 /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A949FE195513E9006D0F17 /* CCAction.m */; };
 		93A94A02195513E9006D0F17 /* CCActionCatmullRom.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A94A01195513E9006D0F17 /* CCActionCatmullRom.m */; };
 		93A94A05195513E9006D0F17 /* CCActionEase.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A94A04195513E9006D0F17 /* CCActionEase.m */; };
@@ -387,6 +390,12 @@
 		93A94EC5195513EF006D0F17 /* CC3TexturableBones.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 93A94EC4195513EF006D0F17 /* CC3TexturableBones.vsh */; };
 		93A94EC7195513EF006D0F17 /* CC3TexturableRigidBones.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 93A94EC6195513EF006D0F17 /* CC3TexturableRigidBones.vsh */; };
 		93A94ECA195513EF006D0F17 /* configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = 93A94EC9195513EF006D0F17 /* configuration.json */; };
+		93A94EDF19551C1E006D0F17 /* Automata.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A94EDC19551C1E006D0F17 /* Automata.m */; };
+		93A94EE019551C1E006D0F17 /* HexagonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A94EDE19551C1E006D0F17 /* HexagonFactory.m */; };
+		93A94EE419551C27006D0F17 /* Level.swift in Resources */ = {isa = PBXBuildFile; fileRef = 93A94EE119551C27006D0F17 /* Level.swift */; };
+		93A94EE519551C27006D0F17 /* LevelScene.swift in Resources */ = {isa = PBXBuildFile; fileRef = 93A94EE219551C27006D0F17 /* LevelScene.swift */; };
+		93A94EE619551C27006D0F17 /* LevelViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 93A94EE319551C27006D0F17 /* LevelViewController.swift */; };
+		93A94EE819551C2C006D0F17 /* Terrain.swift in Resources */ = {isa = PBXBuildFile; fileRef = 93A94EE719551C2C006D0F17 /* Terrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -414,6 +423,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		930E108A19576571007EFB69 /* Hex256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hex256.png; path = Resources/Hex256.png; sourceTree = "<group>"; };
+		9336B4211957455A00EFE8AA /* LevelScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelScene.h; sourceTree = "<group>"; };
+		9336B4221957455A00EFE8AA /* LevelScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelScene.m; sourceTree = "<group>"; };
+		9336B42419574FD300EFE8AA /* Terrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Terrain.h; sourceTree = "<group>"; };
+		9336B42519574FD300EFE8AA /* Terrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Terrain.m; sourceTree = "<group>"; };
+		9336B428195752D900EFE8AA /* Hexagon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hexagon.h; sourceTree = "<group>"; };
 		93A949F4195513E9006D0F17 /* libcocos2d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcocos2d.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A949F8195513E9006D0F17 /* libcocos2d-chipmunk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcocos2d-chipmunk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A949FD195513E9006D0F17 /* CCAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCAction.h; path = Libraries/cocos2d/CCAction.h; sourceTree = "<group>"; };
@@ -1166,6 +1181,14 @@
 		93A94EC4195513EF006D0F17 /* CC3TexturableBones.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = CC3TexturableBones.vsh; path = "cocos3d-GLSL/VertexShaders/CC3TexturableBones.vsh"; sourceTree = "<group>"; };
 		93A94EC6195513EF006D0F17 /* CC3TexturableRigidBones.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = CC3TexturableRigidBones.vsh; path = "cocos3d-GLSL/VertexShaders/CC3TexturableRigidBones.vsh"; sourceTree = "<group>"; };
 		93A94EC9195513EF006D0F17 /* configuration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = configuration.json; path = ../Tactics_iOS.approj/configuration.json; sourceTree = "<group>"; };
+		93A94EDB19551C1E006D0F17 /* Automata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Automata.h; sourceTree = "<group>"; };
+		93A94EDC19551C1E006D0F17 /* Automata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Automata.m; sourceTree = "<group>"; };
+		93A94EDD19551C1E006D0F17 /* HexagonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexagonFactory.h; sourceTree = "<group>"; };
+		93A94EDE19551C1E006D0F17 /* HexagonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexagonFactory.m; sourceTree = "<group>"; };
+		93A94EE119551C27006D0F17 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level.swift; sourceTree = "<group>"; };
+		93A94EE219551C27006D0F17 /* LevelScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LevelScene.swift; sourceTree = "<group>"; };
+		93A94EE319551C27006D0F17 /* LevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LevelViewController.swift; sourceTree = "<group>"; };
+		93A94EE719551C2C006D0F17 /* Terrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Terrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2524,6 +2547,7 @@
 		93A94E27195513EF006D0F17 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				93A94ED919551B9D006D0F17 /* Level */,
 				93A94E28195513EF006D0F17 /* Tactics_iOSLayer.h */,
 				93A94E29195513EF006D0F17 /* Tactics_iOSLayer.m */,
 				93A94E2B195513EF006D0F17 /* Tactics_iOSScene.h */,
@@ -2537,6 +2561,7 @@
 		93A94E2E195513EF006D0F17 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				930E108A19576571007EFB69 /* Hex256.png */,
 				93A94E2F195513EF006D0F17 /* hello-world.pod */,
 				93A94E38195513EF006D0F17 /* Info.plist */,
 				93A94E5F195513EF006D0F17 /* fps_images.png */,
@@ -2682,6 +2707,35 @@
 			name = Apportable;
 			sourceTree = "<group>";
 		};
+		93A94ED919551B9D006D0F17 /* Level */ = {
+			isa = PBXGroup;
+			children = (
+				93A94EE119551C27006D0F17 /* Level.swift */,
+				93A94EE219551C27006D0F17 /* LevelScene.swift */,
+				93A94EE319551C27006D0F17 /* LevelViewController.swift */,
+				9336B4211957455A00EFE8AA /* LevelScene.h */,
+				9336B4221957455A00EFE8AA /* LevelScene.m */,
+				93A94EDA19551B9D006D0F17 /* Terrain */,
+			);
+			name = Level;
+			path = Classes/Level;
+			sourceTree = "<group>";
+		};
+		93A94EDA19551B9D006D0F17 /* Terrain */ = {
+			isa = PBXGroup;
+			children = (
+				93A94EE719551C2C006D0F17 /* Terrain.swift */,
+				93A94EDB19551C1E006D0F17 /* Automata.h */,
+				93A94EDC19551C1E006D0F17 /* Automata.m */,
+				9336B428195752D900EFE8AA /* Hexagon.h */,
+				93A94EDD19551C1E006D0F17 /* HexagonFactory.h */,
+				93A94EDE19551C1E006D0F17 /* HexagonFactory.m */,
+				9336B42419574FD300EFE8AA /* Terrain.h */,
+				9336B42519574FD300EFE8AA /* Terrain.m */,
+			);
+			path = Terrain;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2808,7 +2862,10 @@
 			files = (
 				93A94EAA195513EF006D0F17 /* CC3LibDefaultPrecision.vsh in Resources */,
 				93A94E97195513EF006D0F17 /* CC3PointSpritesAlphaTest.fsh in Resources */,
+				93A94EE619551C27006D0F17 /* LevelViewController.swift in Resources */,
+				93A94EE819551C2C006D0F17 /* Terrain.swift in Resources */,
 				93A94E9D195513EF006D0F17 /* CC3SingleTextureAlphaTest.fsh in Resources */,
+				930E108B19576571007EFB69 /* Hex256.png in Resources */,
 				93A94E7F195513EF006D0F17 /* CC3BumpMapObjectSpace.fsh in Resources */,
 				93A94EA1195513EF006D0F17 /* CC3SingleTextureReflectAlphaTest.fsh in Resources */,
 				93A94EB4195513EF006D0F17 /* CC3LibSingleTexture.vsh in Resources */,
@@ -2839,6 +2896,7 @@
 				93A94EA4195513EF006D0F17 /* CC3LibBumpMapTangentSpaceLighting.vsh in Resources */,
 				93A94E87195513EF006D0F17 /* CC3ClipSpaceNoTexture.fsh in Resources */,
 				93A94E3F195513EF006D0F17 /* Icon-40.png in Resources */,
+				93A94EE519551C27006D0F17 /* LevelScene.swift in Resources */,
 				93A94E4D195513EF006D0F17 /* Icon-60@2x.png in Resources */,
 				93A94EB2195513EF006D0F17 /* CC3LibModelMatrices.vsh in Resources */,
 				93A94E83195513EF006D0F17 /* CC3BumpMapTangentSpace.fsh in Resources */,
@@ -2862,6 +2920,7 @@
 				93A94E5A195513EF006D0F17 /* Default-568h@2x.png in Resources */,
 				93A94E30195513EF006D0F17 /* hello-world.pod in Resources */,
 				93A94EC5195513EF006D0F17 /* CC3TexturableBones.vsh in Resources */,
+				93A94EE419551C27006D0F17 /* Level.swift in Resources */,
 				93A94EC3195513EF006D0F17 /* CC3Texturable.vsh in Resources */,
 				93A94E7A195513EF006D0F17 /* CC3LibTexturableBumpMapTangentSpace.fsh in Resources */,
 				93A94E6C195513EF006D0F17 /* CC3LibDualSidedFragmentColor.fsh in Resources */,
@@ -3198,10 +3257,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A94EDF19551C1E006D0F17 /* Automata.m in Sources */,
+				9336B42619574FD300EFE8AA /* Terrain.m in Sources */,
 				93A94E2D195513EF006D0F17 /* Tactics_iOSScene.m in Sources */,
 				93A94E34195513EF006D0F17 /* Tactics_iOSAppDelegate.m in Sources */,
 				93A94E37195513EF006D0F17 /* main.m in Sources */,
+				93A94EE019551C1E006D0F17 /* HexagonFactory.m in Sources */,
 				93A94E2A195513EF006D0F17 /* Tactics_iOSLayer.m in Sources */,
+				9336B4231957455A00EFE8AA /* LevelScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3488,6 +3551,7 @@
 				93A94ECF195513F0006D0F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93A94ED0195513F0006D0F17 /* Build configuration list for PBXNativeTarget "cocos2d-chipmunk" */ = {
 			isa = XCConfigurationList;
@@ -3496,6 +3560,7 @@
 				93A94ED2195513F0006D0F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93A94ED3195513F0006D0F17 /* Build configuration list for PBXNativeTarget "cocos3d" */ = {
 			isa = XCConfigurationList;
@@ -3504,6 +3569,7 @@
 				93A94ED5195513F0006D0F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93A94ED6195513F0006D0F17 /* Build configuration list for PBXNativeTarget "Tactics-iOS" */ = {
 			isa = XCConfigurationList;
@@ -3512,6 +3578,7 @@
 				93A94ED8195513F0006D0F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
